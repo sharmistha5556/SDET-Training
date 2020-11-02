@@ -18,7 +18,7 @@ public class Activity3_1 {
 		
 		System.out.println("3rd name in the list" +myList.get(2));
 		System.out.println("Does Tim exist in the list" +myList.contains("Tim"));
-		System.out.println("Size of the Araay" +myList.size());
+		System.out.println("Size of the Array" +myList.size());
 		
 		myList.remove(2);
 		System.out.println("Size of the Araay" +myList.size());
