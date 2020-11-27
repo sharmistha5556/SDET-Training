@@ -5,12 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-
-public class Activity11_1 {
+public class Activity11_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		// Declare new WebDriver
 		
         WebDriver driver = new FirefoxDriver();      
@@ -24,26 +22,14 @@ public class Activity11_1 {
 	     System.out.println(pageTitle);
 	     
 	     //Click the simple alert button
-	     driver.findElement(By.xpath("//button[@id='simple']")).click();
+	     driver.findElement(By.xpath("//button[@id='prompt']")).click();
+	     Alert alertprompt=driver.switchTo().alert();
+	     alertprompt.sendKeys("Yes, you are!");
+	     alertprompt.accept();
 	     
-	     Alert simpleAlert = driver.switchTo().alert();
-	     String alertext=simpleAlert.getText();
+	     //page close
+	     driver.close();
 	     
-	        System.out.println("Alert text is: " + alertext);
-	    	
-	        
-	    	
-	        //Close the alert box
-		
-	        simpleAlert.accept();
-		
-	 
-		
-	        //Close the Browser
-		
-	        driver.close();
-	     
-
 	}
 
 }
