@@ -7,8 +7,7 @@ public class CloseBrowser extends OpenBrowser{
 	
 		public void closeBrowser() {
 		//close the driver
-			//driver.close();
-			driver.quit();
+			driver.close();
 	
 	}
 	

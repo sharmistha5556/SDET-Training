@@ -14,8 +14,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class JobBoard_Activity2 extends OpenBrowser{
-	
-	 //WebDriverWait wait;
 	 
 	 @Given("^Open Alchemy JobSite$")
 	  
