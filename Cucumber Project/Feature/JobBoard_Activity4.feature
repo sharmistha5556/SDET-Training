@@ -8,9 +8,9 @@ Scenario Outline: Searching for jobs and applying to them
     And Saves draft
     And Navigate to job dashboard 
     Then Confirm the job listing contains "<JobTitle>"
-    And Close the Browser
+    And Close the Job Board Browser
     
 Examples:
     | email		            | JobTitle         |  websiteURL  | company |
-    | tom@gmail.com       | System Admin     | www.ibm.com  |   IBM   |
-    | adminUser@gmail.com | Test Specialist  | www.ibm.com  |   IBM   |
+    | tommy@gmail.com       | System Admin     | www.ibm.com  |   IBM   |
+    | adminUser123@gmail.com | Test Specialist  | www.ibm.com  |   IBM   |

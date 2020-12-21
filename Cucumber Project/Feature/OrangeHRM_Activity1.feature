@@ -7,7 +7,7 @@ Feature: Creating a job vacancy
     And Navigate to "Recruitment" page
     And Navigate to Vacancies menu item
     And Click on "Add Job Vacancy"
-    When User fills out "Rust Engineer", "Test Rust Engineer101", "Astin" details
+    When User fills out "Rust Engineer", "Test Rust Engineer103", "Astin" details
     And Click on save button 
-    Then Verify that the vacancy was created with "Rust Engineer", "Test Rust Engineer101", "Astin" details
-    And Close the Browser
+    Then Verify that the vacancy was created with "Rust Engineer", "Test Rust Engineer103", "Astin" details
+    And Close the Orange HRM Browser

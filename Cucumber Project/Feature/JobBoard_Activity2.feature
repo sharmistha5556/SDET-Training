@@ -9,4 +9,4 @@ Feature: Searching for jobs
     And Find the job listing
     And Find the job title and print on console
     Then Click and Apply for the job
-    And Close the Browser
+    And Close the Job Board Browser

@@ -12,6 +12,6 @@ Feature: Create leads using parameterization
     
    Examples:
     | firstname		            | lastname         | 
-    | Sam					      			| Desilva          | 
-    |John											|Berzezinski       |
+    | Samuel			      			| Lew            | 
+    |Johnson											|Perez      |
     

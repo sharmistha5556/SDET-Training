@@ -10,9 +10,9 @@ Feature: Creating a job vacancy
     When User fills out "<JobName>", "<VacancyName>", "<HiringMgr>" details
     And Click on save button 
     Then Verify that the vacancy was created with "<JobName>", "<VacancyName>", "<HiringMgr>" details
-    And Close the Browser
+    And Close the Orange HRM Browser
     
     Examples:
     |JobName           |  VacancyName             | HiringMgr   |
-    |Rust Engineer	   |Test Rust Engineer101     | Astin				|
-    |Android Developer |Java Backend Developer101	|Amy Russo    |
+    |Rust Engineer	   |Test Rust Engineer102     | Astin				|
+    |Android Developer |Java Backend Developer102	|Amy Russo    |

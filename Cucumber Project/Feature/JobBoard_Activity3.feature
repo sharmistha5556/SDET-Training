@@ -8,4 +8,4 @@ Feature: Searching for jobs
     And Saves draft
     And Navigate to job dashboard 
     Then Confirm the job listing contains "API Tester"
-    And Close the Browser
+    And Close the Job Board Browser

@@ -9,9 +9,9 @@ Feature: Add multiple employees
     And Check the "Create Login Details" checkbox
     When User creates employee with "<firstname>", "<lastname>" 
     Then Verify that the employee details has been created
-    And Close the Browser
+    And Close the Orange HRM Browser
     
     Examples:
     | firstname		        | lastname         | 
-    | Tim                 | Thomas           | 
-    | Sam                 | George           |  
+    | Tim                 | Long           | 
+    | Sammy                | George           |  

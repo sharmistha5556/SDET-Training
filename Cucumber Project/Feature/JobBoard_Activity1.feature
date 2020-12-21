@@ -8,5 +8,5 @@ Feature: Create a new user for JobBoard
     And Click the Add New button
     And Create a new user
     Then Validate the user has been created
-    And Close the Browser
+    And Close the Job Board Browser
 

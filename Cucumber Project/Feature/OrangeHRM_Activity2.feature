@@ -10,4 +10,4 @@ Feature: Adding a candidate for recruitment
     And Upload resume "C:\\Users\\ibmadmin\\Documents\\Resume\\Sharmistha_AutomationSpecialist_Profile.doc" to the form 
     And Click Save
     Then Navigate back to the Recruitments page to confirm candidate entry with "Timmy Thomas", "Automation Test Engineer"
-    And Close the Browser
+    And Close the Orange HRM Browser
