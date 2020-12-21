@@ -16,7 +16,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -29,8 +28,26 @@ public class CRM_Activity{
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	@Before
-	public void initialise() {
+	@Before("@activity3_1")
+	public void initialise1() {
+		driver = new FirefoxDriver();
+		wait = new WebDriverWait(driver,10);
+	}
+	
+	@Before("@activity3_2")
+	public void initialise2() {
+		driver = new FirefoxDriver();
+		wait = new WebDriverWait(driver,10);
+	}
+	
+	@Before("@activity3_3")
+	public void initialise3() {
+		driver = new FirefoxDriver();
+		wait = new WebDriverWait(driver,10);
+	}
+	
+	@Before("@activity3_4")
+	public void initialise4() {
 		driver = new FirefoxDriver();
 		wait = new WebDriverWait(driver,10);
 	}
@@ -229,7 +246,6 @@ public class CRM_Activity{
 		}
 	 
 
-		@After
 		@And ("^Close the Browser$")		
 		public void burndown() {
 		//close the driver
